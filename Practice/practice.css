@@ -71,17 +71,19 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .cat-1 .cat-2 .cat-3 {
-    margin-top: 10px;
-    width: 32%;
-    height: 250px;
-  }
-
-  .cat-2 > img {
-    max-height: 200px;
-    width: 400;
+    width: 100%;
     object-fit: cover;
+  }
+
+  .img1 {
+    width: 32%;
+  }
+
+  .img2 {
+    width: 32%;
+  }
+
+  .img3 {
+    width: 32%;
   }
 }
